@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                 val rewardType = rewardItem.type
 //                reward += rewardAmount
 //                reward_text.text = "$rewardType : $reward"
-//                testing
+//                testing that is crazy
             })
         } else {
             Log.d("TAG", "The rewarded ad was not loaded yet")
