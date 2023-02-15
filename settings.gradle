@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        google() //애드몹 필요
+        mavenCentral() //애드몹 필요
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google() //애드몹 필요
+        mavenCentral() //애드몹 필요
+    }
+}
+rootProject.name = "admob_reward_type"
+include ':app'
