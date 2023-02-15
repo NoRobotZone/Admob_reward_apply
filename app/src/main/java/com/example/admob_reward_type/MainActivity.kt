@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
 //                reward += rewardAmount
 //                reward_text.text = "$rewardType : $reward"
 //                testing
+//                shit
             })
         } else {
             Log.d("TAG", "The rewarded ad was not loaded yet")
